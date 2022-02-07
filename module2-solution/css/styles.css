@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.row{
+	width: 100%;
+}
+
+h1{
+	font-size: 1.75em;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	color: darkslategray;
+}
+
+p{
+	width: 90%;
+  	margin: 25px auto;
+}
+
+.sect{
+	width: 90%;
+	margin: 20px auto;
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 15px;
+	position: relative;
+	background-color: lightsteelblue;
+}
+
+.sect-title{
+	padding: 0 10px;
+	font-size: 1.25em;
+	border: 1px solid black;
+	border-radius: 10px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#select .sect-title{
+	background-color: lightyellow;
+}
+
+
+#organize .sect-title{
+	background-color: lightsalmon;
+}
+
+#interpret .sect-title{
+	background-color: lightpink;
+}
+
+
+@media (min-width: 992px){
+
+	.col-lg-4, .col-lg-6, .col-lg-12{
+		float: left;
+	}
+
+	.col-lg-4{
+		width: 33.33%;
+	}
+	.col-lg-6{
+		width: 50%;
+	}
+	.col-lg-12{
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+	.col-md-4, .col-md-6, .col-md-12{
+		float: left;
+	}
+
+	.col-md-4{
+		width: 33.33%;
+	}
+	.col-md-6{
+		width: 50%;
+	}
+	.col-md-12{
+		width: 100%;
+	}
+}
